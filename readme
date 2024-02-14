@@ -1,0 +1,14 @@
+# PRUEBA TECNICA ITALO NAVARRETE 
+
+*Crear una estructura similar al contenido adjunto. La idea es que cada imagen o componente armado dirija hacia una categoría específica del sitio. Por ejemplo, si el llamado es sobre smartphones, dirigirlo al catálogo de smartphones del sitio. 
+
+
+*Desarrollar el contenido sin incluir el encabezado (header) ni el pie de página (footer) del sitio. Estos elementos pueden ser agregados en forma de imágenes o pueden ser omitidos.
+
+*Asegúrate de resolver la disposición para dispositivos mobiles de la manera que consideres más conveniente.
+
+*Las imágenes son de referencia y pueden ser reemplazadas por otras si lo deseas. Nuestro enfoque principal es el armado de la estructura. También tienes libertad para elegir las tipografías del sitio.
+
+*Añadir un carrusel a libre elección de imágenes que funcione en mobile, tomar en referencias los actuales carruseles en hites.com
+
+*Una vez completado el armado, envía el código HTML, CSS, etc. Para revisar el funcionamiento de lo realizado.

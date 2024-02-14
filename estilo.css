@@ -1,0 +1,144 @@
+body {
+    background-color: #AD2677 ;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.div {
+	padding: 10px;
+	text-align: center;
+}
+
+.div img {
+	width: 100%;
+	height: auto;
+    border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-areas:
+			"div1 div1 div2 div3"
+			"div1 div1 div4 div5";
+	}
+
+	.div1 {
+		grid-area: div1;
+	}
+
+	.div2 {
+		grid-area: div2;
+	}
+
+	.div3 {
+		grid-area: div3;
+	}
+
+	.div4 {
+		grid-area: div4;
+	}
+
+	.div5 {
+		grid-area: div5;
+	}
+}
+
+
+/* Estructura de estilo carrusel*/
+.carousel {
+    width: 100%;
+    margin: 0px 0px;
+}
+
+@media(min-width:768px){
+    .carousel{
+        margin: 0px 0px;
+    }
+}
+
+.carrusel-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+
+.carrusel-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.carrusel {
+    position: relative;
+    width: 210px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.carrusel a img {
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5s);
+    transition: .3s ease-in-out;
+}
+
+@media(min-width: 768px){
+    .carrusel {
+        width: 275px;
+    }
+    .carrusel a img {
+        width: 250px;
+    }
+}
+
+/* Estilo de los botones*/
+.carrusel-arrow {
+
+    border-radius: 30px;
+    background-color: white;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    cursor: pointer;
+}
+
+.carrusel-arrow:focus {
+    outline: 0;
+}
+
+.carrusel-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.carrusel-prev {
+    left: 0px;
+}
+
+.carrusel-next {
+    right: 0px;
+}
