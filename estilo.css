@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: lightcyan ;
+    background-color: #CBBCD5 ;
 }
 
 .container {
@@ -162,7 +162,7 @@ body {
 
 .grid-promo {
     display: grid;
-    grid-template-columns: repeat(5, 20%); /* Establece un ancho del 20% para cada columna */
+    grid-template-columns: repeat(5, 20%);
     grid-gap: 20px;
     padding: 20px;
     overflow: auto;
@@ -173,6 +173,7 @@ body {
     padding: 10px;
     border-radius: 2px;
     width: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .div1-promo, .div2-promo, .div3-promo, .div4-promo, .div5-promo, .div6-promo, .div7-promo, .div8-promo { 
