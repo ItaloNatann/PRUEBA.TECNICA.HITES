@@ -165,7 +165,6 @@ body {
     grid-template-columns: repeat(5, 20%);
     grid-gap: 20px;
     padding: 20px;
-    overflow: auto;
 }
 
 .grid-promo > div {
@@ -174,6 +173,11 @@ body {
     border-radius: 2px;
     width: auto;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.grid-promo > div a { 
+    color: white;
+    text-decoration: none;
 }
 
 .div1-promo, .div2-promo, .div3-promo, .div4-promo, .div5-promo, .div6-promo, .div7-promo, .div8-promo { 
@@ -187,7 +191,6 @@ body {
     font-family: "Open Sans", sans-serif; 
     font-size: 15px;
     text-align: left;
-
 }
 
 .grid-promo p {
